@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         launchHandler.postDelayed({
             if (!isFinishing && !isDestroyed) {
                 if (baseUrl() == null) setup() else home()
+                UpdateChecker.check(this)
             }
         }, 1800)
     }

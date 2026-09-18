@@ -12,8 +12,8 @@ android {
         // Android 5.0+ covers legacy TV boxes while retaining Media3 support.
         minSdk = 21
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.2.1"
     }
 
     buildFeatures { buildConfig = true }

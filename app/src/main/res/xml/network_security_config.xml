@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Local media servers commonly use HTTP on port 80. Restrict this in a
+         production release once the server domain or private subnet is known. -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
